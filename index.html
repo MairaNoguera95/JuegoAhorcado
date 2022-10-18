@@ -1,0 +1,48 @@
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Juego de Ahorcado</title>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+      </head>
+
+      <body>
+        <div class="main-container">
+  
+          <h1 class="titulo">Juego del ahorcado <br> Maira Noguera</h1>
+        
+          
+         <h3 id="acierto"></h3>
+          <div class="flex-row">
+            <h2 class="palabra" id="palabra"></h2>
+              
+            <picture >
+              <img src="images/ahorcado_6.png" alt="" id="image6">
+              <img src="images/ahorcado_5.png" alt="" id="image5">
+              <img src="images/ahorcado_4.png" alt="" id="image4">
+              <img src="images/ahorcado_3.png" alt="" id="image3">
+              <img src="images/ahorcado_2.png" alt="" id="image2">
+              <img src="images/ahorcado_1.png" alt="" id="image1">
+              <img src="images/ahorcado_0.png" alt="" id="image0">
+            </picture>
+            </div>
+          <div class='final'>
+            <input id="letra" type="text" placeholder="Escribe una letra" maxlength="1"> 
+            <button id="boton">Comprobar</button>
+            <div id="resultado"></div>
+            <h2>Intentos</h2>
+            <div id="intentos">
+              <input></input>
+            </div>
+            <h2>Historial</h2>
+            <div id="historial"></div>
+          
+          </div>
+        </div>
+      <script src="scripts.js"></script>
+    </body>
+    
+
+</html>
